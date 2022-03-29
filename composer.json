@@ -1,6 +1,6 @@
 {
     "name": "aetchell/silverstripe-admin-edit-link",
-    "type": "silverstripe-vendormodule",
+    "type": "silverstripe-module",
     "description": "Adds a link to the edit page in the CMS if you are logged in as administrator",
     "keywords": [
         "silverstripe"
