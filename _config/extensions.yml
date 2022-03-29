@@ -1,0 +1,7 @@
+---
+Name: AdminEditLinkExtensions
+---
+after: '*'
+PageController:
+  extensions:
+    - aetchell\Extensions\PageEditLinkControllerExtension

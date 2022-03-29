@@ -1,0 +1,39 @@
+{
+    "name": "aetchell/silverstripe-admin-edit-link",
+    "type": "silverstripe-vendormodule",
+    "description": "Adds a link to the edit page in the CMS if you are logged in as administrator",
+    "keywords": [
+        "silverstripe"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "aetchell",
+            "email": "aetchell@gmail.com",
+            "homepage": "https://github.com/aetchell"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-cms": "^4"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "extra": {
+        "installer-name": "silverstripe-admin-edit-link",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "expose": [
+            "client"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Pikselin\\Extensions\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+

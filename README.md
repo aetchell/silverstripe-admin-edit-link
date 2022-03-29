@@ -1,2 +1,15 @@
 # silverstripe-admin-edit-link
-Adds a link to the CMS edit page if logged in as admin
+Adds a link to the CMS edit page if logged in user has appropriate permissions.
+
+## CSS
+The CSS for this is very basic and can be overridden:
+```
+.cms-edit-link {
+    position: absolute;
+    padding: 0.5rem;
+    bottom: 15px;
+    right: 15px;
+    background-color: #ffffff;
+    color: #002752;
+}
+```
